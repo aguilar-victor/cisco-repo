@@ -1,0 +1,9 @@
+{
+    "name": "pylon",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "use-websocket": "^0.2.0",
+        "websocket": "^1.0.34"
+    }
+}

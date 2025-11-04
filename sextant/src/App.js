@@ -2,6 +2,7 @@ import './App.css';
 import Banner from './components/Banner';
 import Exhibit from './components/Exhibit';
 import AddressRequest from './components/AddressRequest';
+import Latency from './components/Latency';
 
 function App() {
 	return (
@@ -20,7 +21,9 @@ function App() {
 
 			<Exhibit title="Public IPv6 Address">
 			<AddressRequest ipVersion="v6" />
-			</Exhibit>			
+			</Exhibit>
+
+			<Latency />
 		</main>		
 		</div>
 	);
